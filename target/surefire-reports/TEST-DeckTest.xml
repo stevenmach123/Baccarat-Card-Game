@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DeckTest" time="0.323" tests="106" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/test-classes:/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/classes:/Users/me294llamaxoption/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/me294llamaxoption/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/me294llamaxoption/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/surefire/surefirebooter3770542906201325827.jar /Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/surefire 2020-04-09T18-50-05_160-jvmRun1 surefire5532792670368346369tmp surefire_01572852751897090940tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/test-classes:/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/classes:/Users/me294llamaxoption/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/me294llamaxoption/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/me294llamaxoption/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/me294llamaxoption/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/me294llamaxoption"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020/target/surefire/surefirebooter3770542906201325827.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="me294llamaxoption"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/me294llamaxoption/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5g/fw9n0dsn7j156k9zynmgxx_80000gn/T/"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="/Users/me294llamaxoption/Documents/SP2020/CS342/eclipse-workspace/project2/ThreeCardPoker_Project2_Sp2020"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/me294llamaxoption/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="/Users/me294llamaxoption/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="simpleValue" classname="DeckTest" time="0.032"/>
+  <testcase name="all3Num" classname="DeckTest" time="0.001"/>
+  <testcase name="allSuit" classname="DeckTest" time="0"/>
+  <testcase name="NO_ANY_ERROR_TEST" classname="DeckTest" time="0.001"/>
+  <testcase name="shuffleSuit" classname="DeckTest" time="0"/>
+  <testcase name="repeat1ValueShuffle[1]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1ValueShuffle[2]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[3]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[4]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[5]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1ValueShuffle[6]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[7]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[8]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[9]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1ValueShuffle[10]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1ValueShuffle[11]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1ValueShuffle[12]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[13]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[14]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1ValueShuffle[15]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[16]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1ValueShuffle[17]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[18]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[19]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[20]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[21]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1ValueShuffle[22]" classname="DeckTest" time="0.003"/>
+  <testcase name="repeat1ValueShuffle[23]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[24]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1ValueShuffle[25]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[26]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[27]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[28]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1ValueShuffle[29]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1ValueShuffle[30]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[1]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1Value[2]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[3]" classname="DeckTest" time="0.004"/>
+  <testcase name="repeat1Value[4]" classname="DeckTest" time="0.015"/>
+  <testcase name="repeat1Value[5]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[6]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[7]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[8]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[9]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[10]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[11]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[12]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[13]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat1Value[14]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[15]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[16]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[17]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[18]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[19]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[20]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[21]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[22]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[23]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[24]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[25]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[26]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[27]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[28]" classname="DeckTest" time="0"/>
+  <testcase name="repeat1Value[29]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat1Value[30]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[1]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[2]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[3]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[4]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[5]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[6]" classname="DeckTest" time="0.003"/>
+  <testcase name="repeat2Value[7]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[8]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[9]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[10]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[11]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat2Value[12]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[13]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[14]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[15]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[16]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[17]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[18]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[19]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[20]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat2Value[21]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[22]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[23]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[24]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[25]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[26]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[27]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[28]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[29]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[30]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[31]" classname="DeckTest" time="0.002"/>
+  <testcase name="repeat2Value[32]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[33]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[34]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[35]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[36]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[37]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[38]" classname="DeckTest" time="0.001"/>
+  <testcase name="repeat2Value[39]" classname="DeckTest" time="0"/>
+  <testcase name="repeat2Value[40]" classname="DeckTest" time="0"/>
+  <testcase name="checkSizeShuffle" classname="DeckTest" time="0"/>
+</testsuite>
